@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By looking at the difference between two files we can identify which lines of code are removed from the old file and which lines of code have been added. We can also identify any possible typing mistakes caused in the new file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By having access to the entire history of a file, we can see how the bugs are being resolved and how they are occuring. Understanding this process would make us a better programmer in the long term.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When the versions are automatically saved like Google docs, unnecessary versions are being saved very often. One advantage might me be that we don't lose any important information. In systems like Git, since we have to commit manually, every commit can be done when there is a logical change in the code. So, versions would make more sense here. One disadvantage might be that incase we forget to commit, the changes will not be saved.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Version control systme like Git are mostly useful for code repositories in which multiple files will be changed for adding a new feature. In that case, commiting mutliple files at once would make more sense than commiting one file at a time. In case of Google Docs, they were not designed to be used as code repositories. They should only be used when each file is independent of the other file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log is used when we want to look at the history of all the commits that have been made. git diff is used to compare the changes between two commits in a repository.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control has the history of all the previous versions of our software. So, it's easy to find out the reasons which caused the bugs. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to do my next projects using git. 
