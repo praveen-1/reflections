@@ -7,3 +7,14 @@ How is the staging area different from the working directory and the repository?
 
    The staging area is the place where we add the files to be committed. Instead of committing each file inividually, if we think that it makes logical sense to commit all the files at once, that's where the staging area is of great use. The working directory contains all the files which we are working on. It is not necessary that all those files are committed. The repository contains the history of all the versions.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+   Instead of committing each file inividually, if we think that it makes logical sense to commit all the files at once, that's where the staging area is of great use. We can add multiple files to the staging area and we can commit all of them in a single commit to make a logical sense.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+   When we want to experiment with some new feature but want to keep the working code of the current version, then it is good to create a branch.
+
+How do the diagrams help you visualize the branch structure?
+
+   We can keep track of all the branches where we have tried experimental features.
